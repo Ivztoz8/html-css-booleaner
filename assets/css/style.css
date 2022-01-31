@@ -7,18 +7,68 @@
     box-sizing: border-box;
   }
 
+html {
+      font-size: 12px;
+  }
+
+main{
+    margin-left: 5px;
+}
+
   /* Contenitore con img e logo*/
 #cont-logo{
     background-color: cornflowerblue;
     background-image: url(/assets/img/pattern.png) ;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     height: 70px;
     background-repeat: repeat;
     background-size: 20%;
+    margin-bottom: 10px;
 }
 
 #logo {
 height: 60%;
 margin-top: 20px;
 margin-left: 5px;
+}
+
+/* Titolo, autore, immagini, didascalie */
+
+/* Classi identazione */
+
+.mt-15px{
+    margin-top: 15px;
+}
+
+.mb-20px{
+    margin-bottom: 20px;
+}
+
+.mb-3px{
+    margin-bottom: 3px;
+}
+
+.mb-30px{
+    margin-bottom: 30px;
+}
+
+.sz-16px{
+    font-size: 16px;
+}
+
+/* Stile e fromattazione */
+.style-auth{
+    color: grey;
+}
+
+.style-auth2{
+    color: rgb(0, 157, 255);
+}
+
+h4{
+    display: inline;
+}
+
+.highlig-yel {
+    background-color: yellow;
 }
