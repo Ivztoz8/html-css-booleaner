@@ -1,4 +1,4 @@
-/* Reset formato pagina html*/
+/* Reset formato pagina html */
 *{
     padding: 0;
     margin: 0;
@@ -15,7 +15,7 @@ main{
     margin-left: 5px;
 }
 
-  /* Contenitore con img e logo*/
+/* Contenitore con img e logo */
 #cont-logo {
     background-color: cornflowerblue;
     background-image: url(/assets/img/pattern.png) ;
@@ -52,6 +52,10 @@ main{
     margin-bottom: 30px;
 }
 
+.ml-5px{
+    margin-left: 5px;
+}
+
 .sz-16px{
     font-size: 16px;
 }
@@ -71,6 +75,11 @@ main{
     color: rgb(0, 157, 255);
 }
 
+.style-auth3{
+    color: white;
+}
+
+
 h4{
     display: inline;
 }
@@ -88,7 +97,7 @@ h4{
     margin-left: 2%;
 }
 
-/* Tabella*/
+/* Tabella */
 table {
     width: 100%;
     height: 100%;
@@ -119,4 +128,15 @@ th {
 td {
     width: auto;
     height: 70px;
+}
+
+/* Contenitore immagini e posizionamento testo*/
+.container {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
