@@ -140,3 +140,25 @@ td {
     top: 8px;
     left: 16px;
 }
+
+/* Contenitori immagini e posizionamento testo*/
+/* Contenitore immagini e posizionamento testo*/
+#container-img1 {
+    background-image: url(/assets/img/monitor.jpg);
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#container-img2 {
+    background-image: url(/assets/img/graph.jpg);
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    position: relative;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
